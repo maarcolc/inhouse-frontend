@@ -118,9 +118,9 @@ const Users = () => {
           <tr>
             <th>#</th>
             <th>Nombre</th>
-            <th>Acciones</th>            
-            <th>Email</th>
+            <th>Email</th>            
             <th>Edad</th>
+            <th>Acciones</th>
           </tr>
         </thead>
         <tbody>
