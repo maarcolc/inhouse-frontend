@@ -108,8 +108,8 @@ const Users = () => {
   };
 
   return (
-    <Container>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+    <Container className="d-flex flex-column justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
+      <div style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
         <h2>Usuarios</h2>
         <Button variant="success" onClick={() => handleShowModal()}>+</Button>
       </div>
